@@ -31,3 +31,6 @@ output/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local MCP config (contains secrets — never commit)
+.mcp.json
