@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-05T05:06:01.085Z",
+    "rangeLabel": "all",
+    "agents": [
+      "claude"
+    ],
+    "projectFilter": "all",
+    "totals": {
+      "sessions": 1,
+      "durationMs": 883541,
+      "turns": 30,
+      "files": 13,
+      "netLines": 1164,
+      "toolCallsTotal": 34,
+      "toolSuccessRate": 94.1,
+      "totalCostUSD": 0.6408851,
+      "cacheReadCostUSD": 0.1643906,
+      "pricedSessions": 1
+    },
+    "unpricedModels": [],
+    "coverage": [
+      {
+        "agentName": "claude",
+        "total": 1,
+        "priced": 1,
+        "withLog": 1
+      }
+    ],
+    "userEmail": "pranav_mangal@epam.com",
+    "periodStart": "2026-10-05T04:51:14.111Z",
+    "periodEnd": "2026-10-05T05:05:57.652Z"
+  },
+  "sessions": [
+    {
+      "sessionId": "b02a3fe8-3c96-43b2-ac2e-b592ee04a642",
+      "agentName": "claude",
+      "provider": "ai-run-sso",
+      "title": "& 'c:\\Users\\PranavMangal\\Desktop\\Claude Code\\capstone-claude\\plan\\phase-3-specialist-agents.md' and & 'c:\\Users\\PranavMangal\\Desktop\\Claude Code\\capstone-claude\\project-plan.md' i have created all the sub agents but now it is not visible why",
+      "project": "C:\\Users\\PranavMangal\\Desktop\\Claude Code\\capstone-claude",
+      "branch": "main",
+      "startTime": 1791175874111,
+      "durationMs": 883541,
+      "turns": 30,
+      "fileOps": 13,
+      "linesAdded": 1448,
+      "linesRemoved": 284,
+      "linesModified": 0,
+      "netLines": 1164,
+      "filesChanged": 10,
+      "filesWritten": 10,
+      "filesEdited": 9,
+      "toolCallsTotal": 34,
+      "toolCallsSuccess": 32,
+      "toolCallsFailure": 2,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "languages": [
+        "markdown"
+      ],
+      "tools": [
+        {
+          "toolName": "Write",
+          "totalCalls": 10,
+          "successCount": 10,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Edit",
+          "totalCalls": 9,
+          "successCount": 9,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Bash",
+          "totalCalls": 6,
+          "successCount": 5,
+          "failureCount": 1,
+          "successRate": 83.33333333333334
+        },
+        {
+          "toolName": "Read",
+          "totalCalls": 4,
+          "successCount": 3,
+          "failureCount": 1,
+          "successRate": 75
+        },
+        {
+          "toolName": "PowerShell",
+          "totalCalls": 3,
+          "successCount": 3,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Glob",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Skill",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0,
+          "successRate": 100
+        }
+      ],
+      "tokens": {
+        "input": 142,
+        "output": 26505,
+        "cacheRead": 1643906,
+        "cacheCreation": 275062,
+        "cacheCreation1h": 0,
+        "total": 1945615
+      },
+      "costUSD": 0.6408851,
+      "cacheReadCostUSD": 0.1643906,
+      "perModelCost": [
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "tokens": {
+            "input": 47,
+            "output": 7310,
+            "cacheRead": 679823,
+            "cacheCreation": 91672,
+            "cacheCreation1h": 0,
+            "total": 778852
+          },
+          "costUSD": 0.2191693,
+          "unpriced": false
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "tokens": {
+            "input": 52,
+            "output": 7759,
+            "cacheRead": 550662,
+            "cacheCreation": 65332,
+            "cacheCreation1h": 0,
+            "total": 623805
+          },
+          "costUSD": 0.17557820000000002,
+          "unpriced": false
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "tokens": {
+            "input": 43,
+            "output": 11436,
+            "cacheRead": 413421,
+            "cacheCreation": 118058,
+            "cacheCreation1h": 0,
+            "total": 542958
+          },
+          "costUSD": 0.2461376,
+          "unpriced": false
+        }
+      ],
+      "hadLog": true,
+      "agentSessionFile": "C:\\Users\\PranavMangal\\.claude\\projects\\C--Users-PranavMangal-Desktop-Claude-Code-capstone-claude\\d782d4bf-0edc-4d32-9549-201a3537f5d2.jsonl",
+      "costSeries": [
+        {
+          "t": 1791175920508,
+          "cost": 0.04699175,
+          "tokens": 37162
+        },
+        {
+          "t": 1791175922850,
+          "cost": 0.0945625,
+          "tokens": 74647
+        },
+        {
+          "t": 1791175930997,
+          "cost": 0.10484695,
+          "tokens": 116685
+        },
+        {
+          "t": 1791175935759,
+          "cost": 0.1582157,
+          "tokens": 158925
+        },
+        {
+          "t": 1791175983679,
+          "cost": 0.196847,
+          "tokens": 210475
+        },
+        {
+          "t": 1791175988890,
+          "cost": 0.21061755,
+          "tokens": 262954
+        },
+        {
+          "t": 1791175994651,
+          "cost": 0.21766075,
+          "tokens": 315838
+        },
+        {
+          "t": 1791176060052,
+          "cost": 0.22415059999999998,
+          "tokens": 369372
+        },
+        {
+          "t": 1791176073123,
+          "cost": 0.24133714999999997,
+          "tokens": 427632
+        },
+        {
+          "t": 1791176086803,
+          "cost": 0.26045264999999995,
+          "tokens": 487312
+        },
+        {
+          "t": 1791176100692,
+          "cost": 0.30567174999999996,
+          "tokens": 548479
+        },
+        {
+          "t": 1791176115059,
+          "cost": 0.3249062,
+          "tokens": 611388
+        },
+        {
+          "t": 1791176130642,
+          "cost": 0.34293779999999996,
+          "tokens": 675993
+        },
+        {
+          "t": 1791176147576,
+          "cost": 0.36353864999999996,
+          "tokens": 742055
+        },
+        {
+          "t": 1791176163714,
+          "cost": 0.38098649999999995,
+          "tokens": 810040
+        },
+        {
+          "t": 1791176178355,
+          "cost": 0.40389064999999996,
+          "tokens": 879791
+        },
+        {
+          "t": 1791176197852,
+          "cost": 0.4237817,
+          "tokens": 951882
+        },
+        {
+          "t": 1791176203349,
+          "cost": 0.43867544999999997,
+          "tokens": 1024212
+        },
+        {
+          "t": 1791176220513,
+          "cost": 0.45853025,
+          "tokens": 1096987
+        },
+        {
+          "t": 1791176255907,
+          "cost": 0.46688339999999995,
+          "tokens": 1169925
+        },
+        {
+          "t": 1791176258978,
+          "cost": 0.47514594999999993,
+          "tokens": 1243221
+        },
+        {
+          "t": 1791176261561,
+          "cost": 0.48902579999999995,
+          "tokens": 1318220
+        },
+        {
+          "t": 1791176271133,
+          "cost": 0.5008948,
+          "tokens": 1394034
+        },
+        {
+          "t": 1791176274591,
+          "cost": 0.5105718,
+          "tokens": 1470301
+        },
+        {
+          "t": 1791176280366,
+          "cost": 0.5190319,
+          "tokens": 1546772
+        },
+        {
+          "t": 1791176285476,
+          "cost": 0.52986515,
+          "tokens": 1623762
+        },
+        {
+          "t": 1791176472337,
+          "cost": 0.54061715,
+          "tokens": 1701317
+        },
+        {
+          "t": 1791176672055,
+          "cost": 0.601883,
+          "tokens": 1779065
+        },
+        {
+          "t": 1791176723962,
+          "cost": 0.6202238499999999,
+          "tokens": 1858805
+        },
+        {
+          "t": 1791176743333,
+          "cost": 0.6408850999999999,
+          "tokens": 1945615
+        }
+      ],
+      "dispatches": [
+        {
+          "kind": "skill",
+          "name": "codemie:codemie-subagents",
+          "start": 1791175935759,
+          "durationMs": 3767,
+          "id": "tooluse_O4Eq8rtJgbp7t1Lql2vTiC",
+          "ownerAgentId": "b02a3fe8-3c96-43b2-ac2e-b592ee04a642",
+          "relationshipStatus": "root",
+          "acknowledgedAt": 1791175939526,
+          "completedAt": 1791175939526,
+          "elapsedMs": 3767,
+          "status": "completed",
+          "costUSD": 0.05336875,
+          "attributionStatus": "estimated",
+          "attributionScope": "owner-window",
+          "tokens": {
+            "input": 5,
+            "output": 152,
+            "cacheRead": 0,
+            "cacheCreation": 42083,
+            "cacheCreation1h": 0,
+            "total": 42240
+          }
+        }
+      ],
+      "costSource": "native-estimate",
+      "costBasis": "standard-api-tokens",
+      "dispatchesComplete": true,
+      "rootOwnCostUSD": 0.6408851,
+      "unlinkedCostUSD": 0,
+      "unlinkedAgentIds": [],
+      "rootOwnTokens": {
+        "input": 142,
+        "output": 26505,
+        "cacheRead": 1643906,
+        "cacheCreation": 275062,
+        "cacheCreation1h": 0,
+        "total": 1945615
+      },
+      "unlinkedTokens": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheCreation": 0,
+        "cacheCreation1h": 0,
+        "total": 0
+      },
+      "skillInvocations": [
+        {
+          "name": "codemie:codemie-subagents",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0
+        }
+      ],
+      "agentInvocations": [],
+      "commandInvocations": [],
+      "sessionSource": "Pure chat"
+    }
+  ]
+}
